@@ -1,0 +1,107 @@
+.Product-imgGit {
+    background-image: url(../assets/12.JPG);
+    height: 60vh;
+    width:100%;
+    color: white;
+    background-size:cover;
+    background-attachment:fixed;
+}
+.Product-imgJoin {
+    background-image: url(../assets/8.jpg);
+    height: 60vh;
+    width:100%;
+    color: white;
+    background-size:cover;
+    background-attachment:fixed;
+}
+.Product-imgQuickBuid {
+    background-image: url(../assets/9.jpg);
+    height: 60vh;
+    width:100%;
+    color: white;
+    background-size:cover;
+    background-attachment:fixed;
+}
+.Product-imgContinous {
+    background-image: url(../assets/7.jpg);
+    height: 60vh;
+    width:100%;
+    color: white;
+    background-size:cover;
+    background-attachment:fixed;
+}
+.Product-word-left {
+    padding: 0 0 0 6%;
+    width: 30%;
+    height:20%;
+    font-size: 26px;
+    cursor: pointer;
+    font-weight: 300;
+    color: rgb(5, 6, 6);
+    line-height: 30px;
+    display: inline-block;
+}
+.Product-word-right {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    width: 30%;
+    height:20%;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 300;
+    color: rgb(136, 136, 136);
+    line-height: 30px;
+    float: right;
+    margin-right: -256px;
+}
+.Product-word {
+    width: 80%;
+    height:20%;
+    font-size: 32px;
+    cursor: pointer;
+    font-weight: 300;
+    color: #f5f5f5;
+    line-height: 30px;
+    text-align: center;
+    margin-left:8%;
+    padding-top:8%;
+}
+.Product-title {
+    padding: 0 0 0 6%;
+    width: 40%;
+    height:20%;
+    font-size: 26px;
+    cursor: pointer;
+    font-weight: 300;
+    color: rgb(5, 6, 6);
+    line-height: 30px;
+    display: inline-block;
+    margin: 2% 0 0 0;
+}
+.Product-title-left {
+    padding: 0 0 0 6%;
+    width: 40%;
+    height:20%;
+    font-size: 26px;
+    cursor: pointer;
+    font-weight: 300;
+    color: rgb(5, 6, 6);
+    line-height: 30px;
+    display: inline-block;
+    margin: 2% 0 0 0;
+}
+.Product-Icon {
+    height: 100px;
+    width: 100px;
+    line-height: 39px;
+    border-radius: 20px;
+    background-color: rgba(6, 5, 6, 0.28);
+    color: #fff;
+    text-align: center;
+    font-size: 80px;
+    padding-top: 10px;
+}
+.Product-img {
+    margin: 2% 0 0 6%;
+}

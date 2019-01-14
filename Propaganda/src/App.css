@@ -1,0 +1,214 @@
+.App-content{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+}
+.App {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+.App-header {
+  background-color: white;
+  height: 10vh;
+  width:100%;
+  color: white;
+}
+
+.App-header-right {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 25px 0 0 50%;
+}
+
+.App-header-right-p {
+  font-size: 20px;
+  padding-right: 25px;
+  cursor: pointer;
+  font-weight: 300;
+  color: rgb(136, 136, 136);
+  line-height: 30px;
+  width: 100%;
+  display: inline-block;
+}
+
+.App-header-right-color {
+  color: rgb(136, 136, 136);
+}
+.App-body {
+  background-color: white;
+  height: 165vh;
+  width:100%;
+  color: white;
+}
+
+.App-img {
+  height:90vh ;
+  width:100%;
+}
+
+.App-imgCus {
+  height:40% ;
+  width:40%;
+}
+
+.App-footer-img {
+  height:10% ;
+  width:10%;
+}
+
+.App-footer {
+  display: flex;
+  flex-flow: column nowrap;
+  background-color: white;
+  height: 40vh;
+  width:100%;
+}
+
+.App-footer-icon {
+  font-size:43px;
+}
+.App-footer-button {
+  padding-top: 2%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+.App-footer-button1 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+.App-footer-word {
+  padding: 0 0 0 6%;
+  width: 30%;
+  height:20%;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 300;
+  color: rgb(136, 136, 136);
+  line-height: 30px;
+  display: inline-block;
+}
+.App-footer-wordTitel {
+  width: 30%;
+  height:20%;
+  font-size: 25px;
+  cursor: pointer;
+  font-weight: 300;
+  color: rgb(136, 136, 136);
+  line-height: 30px;
+  display: inline-block;
+}
+.App-footer-p {
+  font-size: 20px;
+  padding: 25px 0 15px 0;
+  cursor: pointer;
+  font-weight: 300;
+  color: rgb(136, 136, 136);
+  line-height: 30px;
+  width: 100%;
+  display: inline-block;
+}
+
+.App-bottom {
+  display: flex;
+  flex-flow: row nowrap;
+  padding-left: 5%;
+  background-color: rgba(5, 6, 6, 0.8);
+  height: 40vh;
+  width:100%;
+}
+.App-bottom-div {
+  padding: 0 15% 0 0;
+}
+.App-bottom-div-line {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+.App-bottom-div-top {
+  font-size: 18px;
+  padding: 25px 0 15px 0;
+  cursor: pointer;
+  font-weight: 300;
+  color: #d9d9d9;
+  display: inline-block;
+}
+.App-bottom-div-En {
+  font-size: 18px;
+  padding: 25px 0 15px 0;
+  cursor: pointer;
+  font-weight: 300;
+  color: rgba(5, 6, 6, 0.48);
+  display: inline-block;
+}
+.App-bottom-div-p {
+   font-size: 14px;
+   padding: 0 10px 5px 0;
+   cursor: pointer;
+   font-weight: 300;
+   color: #d9d9d9;
+   display: inline-block;
+ }
+.App-bottom-div-wx {
+  width: 115px;
+  font-size: 14px;
+  padding: 0 10px 5px 0;
+  cursor: pointer;
+  font-weight: 300;
+  color: #d9d9d9;
+  display: inline-block;
+}
+.App-bottom-div-phone {
+  font-size: 14px;
+  padding: 0 10px 5px 0;
+  cursor: pointer;
+  font-weight: 300;
+  color: rgba(99, 127, 242, 0.64);
+  display: inline-block;
+}
+.App-bottom-backTop {
+  width:80px;
+  height:80px;
+  border-radius:40px;
+
+}
+.ant-back-top {
+  bottom: 100px;
+}
+.ant-back-top-inner {
+  height: 60px;
+  width: 60px;
+  line-height: 40px;
+  border-radius: 4px;
+  background-color: rgba(6, 5, 6, 0.28);
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
+.App-drawer-word {
+  font-size: 14px;
+  padding-right: 25px;
+  cursor: pointer;
+  font-weight: 300;
+  color: rgb(136, 136, 136);
+  line-height: 30px;
+  width: 100%;
+  display: inline-block;
+}
+.App-drawer-icon {
+  font-size: 30px;
+  padding-right: 5px;
+}
+
+.ant-drawer-body {
+  padding: 20px;
+  font-size: 14px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
