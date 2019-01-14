@@ -1,0 +1,491 @@
+/*@import url(//fonts.useso.com/css?family=Noto+Sans:400,400italic,700,700italic);
+@import url(//fonts.useso.com/earlyaccess/notosanssc.css);*/
+
+/*@font-face {
+    font-family: 'Brandon';
+    src: url(//assets.strikingly.com/assets/typefaces/brandon_bld-webfont-05f29b4480a25d22a058c430ddcf75b2.eot);
+    src: url(//assets.strikingly.com/assets/typefaces/brandon_bld-webfont-05f29b4480a25d22a058c430ddcf75b2.eot?#iefix) format('embedded-opentype'), url(//assets.strikingly.com/assets/typefaces/brandon_bld-webfont-1ad3dfb19911e61250c5ba0185000042.woff) format('woff'), url(//assets.strikingly.com/assets/typefaces/brandon_bld-webfont-70fdb6dbc81ab1eeee3f7ef0171db46a.ttf) format('truetype'), url(//assets.strikingly.com/assets/typefaces/brandon_bld-webfont-8ca4d3dd7da5acfc77ef960224accd2b.svg#BrandonGrotesqueBoldRegular) format('svg');
+    font-weight: 700;
+    font-style: normal
+}
+@font-face {
+    font-family: 'Brandon';
+    src: url(//assets.strikingly.com/assets/typefaces/brandon_reg-webfont-6802245cac07625012a177d7eb93cd08.eot);
+    src: url(//assets.strikingly.com/assets/typefaces/brandon_reg-webfont-6802245cac07625012a177d7eb93cd08.eot?#iefix) format('embedded-opentype'), url(//assets.strikingly.com/assets/typefaces/brandon_reg-webfont-03fec3d75471e394d08c1621b5f7dc22.woff) format('woff'), url(//assets.strikingly.com/assets/typefaces/brandon_reg-webfont-88746fd17fe1776ef1ac8eed6d8792c3.ttf) format('truetype'), url(//assets.strikingly.com/assets/typefaces/brandon_reg-webfont-20444887a6645d2d65ef372276f3c4e8.svg#BrandonGrotesqueRegularRg) format('svg');
+    font-weight: 500;
+    font-style: normal
+}
+@font-face {
+    font-family: 'Brandon';
+    src: url(//assets.strikingly.com/assets/typefaces/brandon_light-webfont-33428651ffe444f6df39167bf816a493.eot);
+    src: url(//assets.strikingly.com/assets/typefaces/brandon_light-webfont-33428651ffe444f6df39167bf816a493.eot?#iefix) format('embedded-opentype'), url(//assets.strikingly.com/assets/typefaces/brandon_light-webfont-0dd9e481832af747cdf2a5c16b4badc3.woff) format('woff'), url(//assets.strikingly.com/assets/typefaces/brandon_light-webfont-5a343ecb8fc2a46c5c3fe2dd2b6d577f.ttf) format('truetype'), url(//assets.strikingly.com/assets/typefaces/brandon_light-webfont-8a7ad832a8f42e8704e135a266680519.svg#BrandonGrotesqueLight) format('svg');
+    font-weight: 300;
+    font-style: normal
+}
+@font-face {
+    font-family: 'Brandon';
+    src: url(//assets.strikingly.com/assets/typefaces/brandon_med-webfont-aefd571ba33fd5f44756e34ecf6fc6c8.eot);
+    src: url(//assets.strikingly.com/assets/typefaces/brandon_med-webfont-aefd571ba33fd5f44756e34ecf6fc6c8.eot?#iefix) format('embedded-opentype'), url(//assets.strikingly.com/assets/typefaces/brandon_med-webfont-46038c42a3811ea38608c14800e60f4e.woff) format('woff'), url(//assets.strikingly.com/assets/typefaces/brandon_med-webfont-5fb0d26cbd124e005ab82295a7c1c906.ttf) format('truetype'), url(//assets.strikingly.com/assets/typefaces/brandon_med-webfont-4903069cbeb99fe30442b1684eaacd2f.svg#BrandonGrotesqueMedium) format('svg');
+    font-weight: 600;
+    font-style: normal
+}*/
+/*@font-face {
+    font-family: 'Pragmatica';
+    src: url(//assets.strikingly.com/assets/typefaces/prag-webfont-7ca8d4dfaca51849a94620532aa52e54.eot);
+    src: url(//assets.strikingly.com/assets/typefaces/prag-webfont-7ca8d4dfaca51849a94620532aa52e54.eot?#iefix) format('embedded-opentype'), url(//assets.strikingly.com/assets/typefaces/prag-webfont-3066e8535c714a0413cbc6ae829c6050.woff) format('woff'), url(//assets.strikingly.com/assets/typefaces/prag-webfont-ce76fa34371e38b5afeef00048290548.ttf) format('truetype'), url(//assets.strikingly.com/assets/typefaces/prag-webfont-c7707ca85863ea7ea6b10034ef1f7fbc.svg#Pragmatica) format('svg');
+    font-weight: 200;
+    font-style: normal
+}
+@font-face {
+    font-family: 'Pragmatica';
+    src: url(//assets.strikingly.com/assets/typefaces/pragbold-776dce26344b06e473809d558eb85782.eot);
+    src: url(//assets.strikingly.com/assets/typefaces/pragbold-776dce26344b06e473809d558eb85782.eot?#iefix) format('embedded-opentype'), url(//assets.strikingly.com/assets/typefaces/pragbold-c30edf09291130f3e8fe48ea3f0d1f07.woff) format('woff'), url(//assets.strikingly.com/assets/typefaces/pragbold-ca24e564d7ebb603a40db3383d3afd8d.ttf) format('truetype'), url(//assets.strikingly.com/assets/typefaces/pragbold-42e5d5bc38b5ed4c883d22b3876fc881.svg#Pragmatica) format('svg');
+    font-weight: 700;
+    font-style: normal
+}
+@font-face {
+    font-family: 'Pragmatica';
+    src: url(//assets.strikingly.com/assets/typefaces/praglight-deba03b947979ac3231c617b125763dd.eot);
+    src: url(//assets.strikingly.com/assets/typefaces/praglight-deba03b947979ac3231c617b125763dd.eot?#iefix) format('embedded-opentype'), url(//assets.strikingly.com/assets/typefaces/praglight-520a0f4719095f4e8a58008c5b7d405b.woff) format('woff'), url(//assets.strikingly.com/assets/typefaces/praglight-099dc0b26dc45d7fa6052350f37117a4.ttf) format('truetype'), url(//assets.strikingly.com/assets/typefaces/praglight-215ba621c113dde7282e0964dc11f840.svg#Pragmatica) format('svg');
+    font-weight: 500;
+    font-style: normal
+}*/
+/*@font-face {
+    font-family: 'open_sans';
+    src: url(//assets.strikingly.com/assets/typefaces/open_sans/OpenSans-Bold-webfont-ce419a2cfe38dc72752e0ba6cc92a5da.eot);
+    src: url(//assets.strikingly.com/assets/typefaces/open_sans/OpenSans-Bold-webfont-ce419a2cfe38dc72752e0ba6cc92a5da.eot?#iefix) format('embedded-opentype'), url(//assets.strikingly.com/assets/typefaces/open_sans/OpenSans-Bold-webfont-96485a496ddd1ca8c2bec0c1144c1767.woff) format('woff'), url(//assets.strikingly.com/assets/typefaces/open_sans/OpenSans-Bold-webfont-1b02bbdec73d2d359ecbbab7661fbfaf.ttf) format('truetype'), url(//assets.strikingly.com/assets/typefaces/open_sans/OpenSans-Bold-webfont-d7279098902e461c31e347cd823fa41f.svg#open_sansbold) format('svg');
+    font-weight: 700;
+    font-style: normal
+}
+@font-face {
+    font-family: 'open_sans';
+    src: url(//assets.strikingly.com/assets/typefaces/open_sans/OpenSans-BoldItalic-webfont-89c93cd4d368793d62f6ff0e9967bf66.eot);
+    src: url(//assets.strikingly.com/assets/typefaces/open_sans/OpenSans-BoldItalic-webfont-89c93cd4d368793d62f6ff0e9967bf66.eot?#iefix) format('embedded-opentype'), url(//assets.strikingly.com/assets/typefaces/open_sans/OpenSans-BoldItalic-webfont-ce3a206c5c5851d7078cc37295ce6b9d.woff) format('woff'), url(//assets.strikingly.com/assets/typefaces/open_sans/OpenSans-BoldItalic-webfont-cb1ff09aef6e200d5e4003b27ab4cebe.ttf) format('truetype'), url(//assets.strikingly.com/assets/typefaces/open_sans/OpenSans-BoldItalic-webfont-fd31875cdec1abc205d9971a5010525e.svg#open_sansbold_italic) format('svg');
+    font-weight: 700;
+    font-style: italic
+}
+@font-face {
+    font-family: 'open_sans';
+    src: url(//assets.strikingly.com/assets/typefaces/open_sans/OpenSans-Italic-webfont-ca43c58a2745c2e1f0e8349b9d4d963a.eot);
+    src: url(//assets.strikingly.com/assets/typefaces/open_sans/OpenSans-Italic-webfont-ca43c58a2745c2e1f0e8349b9d4d963a.eot?#iefix) format('embedded-opentype'), url(//assets.strikingly.com/assets/typefaces/open_sans/OpenSans-Italic-webfont-986113d956a869816a4c643f417adb7e.woff) format('woff'), url(//assets.strikingly.com/assets/typefaces/open_sans/OpenSans-Italic-webfont-ad1e2bab6890a199b71ac25c0fd9a64e.ttf) format('truetype'), url(//assets.strikingly.com/assets/typefaces/open_sans/OpenSans-Italic-webfont-405e1fb1b43a984672b6b1e5a39cd9d8.svg#open_sansitalic) format('svg');
+    font-weight: 400;
+    font-style: italic
+}
+@font-face {
+    font-family: 'open_sans';
+    src: url(//assets.strikingly.com/assets/typefaces/open_sans/OpenSans-Light-webfont-b985ccde39f5fd392785a2fec8d50dbe.eot);
+    src: url(//assets.strikingly.com/assets/typefaces/open_sans/OpenSans-Light-webfont-b985ccde39f5fd392785a2fec8d50dbe.eot?#iefix) format('embedded-opentype'), url(//assets.strikingly.com/assets/typefaces/open_sans/OpenSans-Light-webfont-6779c40cc7c3df8b18895770c439ff20.woff) format('woff'), url(//assets.strikingly.com/assets/typefaces/open_sans/OpenSans-Light-webfont-cf8fa0aa381d976565e876c3f785f918.ttf) format('truetype'), url(//assets.strikingly.com/assets/typefaces/open_sans/OpenSans-Light-webfont-77be03fc14f5fa5f3e5cdea34569c248.svg#open_sanslight) format('svg');
+    font-weight: 300;
+    font-style: normal
+}
+@font-face {
+    font-family: 'open_sans';
+    src: url(//assets.strikingly.com/assets/typefaces/open_sans/OpenSans-LightItalic-webfont-f8f9337ccef728a5ece46ca45ba8667c.eot);
+    src: url(//assets.strikingly.com/assets/typefaces/open_sans/OpenSans-LightItalic-webfont-f8f9337ccef728a5ece46ca45ba8667c.eot?#iefix) format('embedded-opentype'), url(//assets.strikingly.com/assets/typefaces/open_sans/OpenSans-LightItalic-webfont-09f0cc35ee7ea0e2a203ffff3e9c8571.woff) format('woff'), url(//assets.strikingly.com/assets/typefaces/open_sans/OpenSans-LightItalic-webfont-4ccbc999842c6cf15d253ad3fde82679.ttf) format('truetype'), url(//assets.strikingly.com/assets/typefaces/open_sans/OpenSans-LightItalic-webfont-e55808a82b9c4f894c0f8ba62ee36fe9.svg#open_sanslight_italic) format('svg');
+    font-weight: 300;
+    font-style: italic
+}
+@font-face {
+    font-family: 'open_sans';
+    src: url(//assets.strikingly.com/assets/typefaces/open_sans/OpenSans-Regular-webfont-b367b7956b7b8c70586bfe682407eeba.eot);
+    src: url(//assets.strikingly.com/assets/typefaces/open_sans/OpenSans-Regular-webfont-b367b7956b7b8c70586bfe682407eeba.eot?#iefix) format('embedded-opentype'), url(//assets.strikingly.com/assets/typefaces/open_sans/OpenSans-Regular-webfont-303037f29b6bb058b4e7b2b4c9d58091.woff) format('woff'), url(//assets.strikingly.com/assets/typefaces/open_sans/OpenSans-Regular-webfont-503956f5bbc5a191de1b142ae25c00a7.ttf) format('truetype'), url(//assets.strikingly.com/assets/typefaces/open_sans/OpenSans-Regular-webfont-a05b61cb64a33c35f8ae2a4f9757e3ed.svg#open_sansregular) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+@font-face {
+    font-family: 'open_sans';
+    src: url(//assets.strikingly.com/assets/typefaces/open_sans/OpenSans-Semibold-webfont-b8fe0d8dbc5b2fdec800bf32f1655e52.eot);
+    src: url(//assets.strikingly.com/assets/typefaces/open_sans/OpenSans-Semibold-webfont-b8fe0d8dbc5b2fdec800bf32f1655e52.eot?#iefix) format('embedded-opentype'), url(//assets.strikingly.com/assets/typefaces/open_sans/OpenSans-Semibold-webfont-6302fe41985cabecf9ad3cf5cd41faa2.woff) format('woff'), url(//assets.strikingly.com/assets/typefaces/open_sans/OpenSans-Semibold-webfont-e9f4b26370c932e88b0c2e95398d6f8f.ttf) format('truetype'), url(//assets.strikingly.com/assets/typefaces/open_sans/OpenSans-Semibold-webfont-60ba3dfa5a561c7865cddc30b284cdac.svg#open_sanssemibold) format('svg');
+    font-weight: 600;
+    font-style: normal
+}
+@font-face {
+    font-family: 'open_sans';
+    src: url(//assets.strikingly.com/assets/typefaces/open_sans/OpenSans-SemiboldItalic-webfont-664c0aa3e10334e4c99606ef6f24863a.eot);
+    src: url(//assets.strikingly.com/assets/typefaces/open_sans/OpenSans-SemiboldItalic-webfont-664c0aa3e10334e4c99606ef6f24863a.eot?#iefix) format('embedded-opentype'), url(//assets.strikingly.com/assets/typefaces/open_sans/OpenSans-SemiboldItalic-webfont-7edacaf5b933396d24f247a503ec3385.woff) format('woff'), url(//assets.strikingly.com/assets/typefaces/open_sans/OpenSans-SemiboldItalic-webfont-65ced8c1894ffbdeebfcb2455dfd5e62.ttf) format('truetype'), url(//assets.strikingly.com/assets/typefaces/open_sans/OpenSans-SemiboldItalic-webfont-da5c86febb805269b99ba4bf779bdaa3.svg#open_sanssemibold_italic) format('svg');
+    font-weight: 600;
+    font-style: italic
+}*/
+
+
+body {
+  font-family: 'pragmatica', 'PingFang SC', "Microsoft YaHei", "å¾®è½¯é›…é»‘", STXihei, "åŽæ–‡ç»†é»‘", sans-serif;
+  /*font-family: font-family: 'brandon', 'PingFang SC', "Microsoft YaHei", "å¾®è½¯é›…é»‘", STXihei, "åŽæ–‡ç»†é»‘", sans-serif;*/
+  /*font-family: 'Open Sans', 'open_sans', 'PingFang SC', "Microsoft YaHei", "å¾®è½¯é›…é»‘", STXihei, "åŽæ–‡ç»†é»‘", sans-serif;*/
+  font-size: 16px;
+  font-weight: 300;
+  color: #888;
+  line-height: 30px;
+  text-align: center;
+}
+
+strong { font-weight: 500; }
+
+a, a:hover, a:focus {
+  color: #28a7e9;
+  text-decoration: none;
+  -o-transition: all .3s;
+  -moz-transition: all .3s;
+  -webkit-transition: all .3s;
+  -ms-transition: all .3s;
+  transition: all .3s;
+}
+
+h1, h2 {
+  margin-top: 10px;
+  font-size: 38px;
+  font-weight: 100;
+  color: #555;
+  line-height: 50px;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 300;
+  color: #555;
+  line-height: 30px;
+}
+
+img { max-width: 100%; }
+
+::-moz-selection { background: #24c56e; color: #fff; text-shadow: none; }
+::selection { background: #24c56e; color: #fff; text-shadow: none; }
+
+
+.btn-link-1 {
+  display: inline-block;
+  height: 50px;
+  margin: 5px;
+  padding: 16px 20px 0 20px;
+  background: #24c56e;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 16px;
+  color: #fff;
+  -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+}
+.btn-link-1:hover, .btn-link-1:focus, .btn-link-1:active { outline: 0; opacity: 0.6; color: #fff; }
+
+.btn-link-1.btn-link-1-facebook { background: #4862a3; }
+.btn-link-1.btn-link-1-twitter { background: #55acee; }
+.btn-link-1.btn-link-1-google-plus { background: #dd4b39; }
+
+.btn-link-1 i {
+  padding-right: 5px;
+  vertical-align: middle;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.btn-link-2 {
+  display: inline-block;
+  height: 50px;
+  margin: 5px;
+  padding: 15px 20px 0 20px;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid #fff;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 16px;
+  color: #fff;
+  -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+}
+.btn-link-2:hover, .btn-link-2:focus,
+.btn-link-2:active, .btn-link-2:active:focus { outline: 0; opacity: 0.6; background: rgba(0, 0, 0, 0.3); color: #fff; }
+
+
+/***** Top content *****/
+
+.inner-bg {
+  padding: 100px 0 170px 0;
+}
+
+.top-content .text {
+  color: #fff;
+}
+
+.top-content .text h1 { color: #fff; }
+
+.top-content .description {
+  margin: 20px 0 0 0;
+}
+
+.alt-text {
+  visibility: hidden;
+}
+
+.top-content .description
+
+.top-content .description a {
+  color: #fff;
+}
+.top-content .description a:hover,
+.top-content .description a:focus { border-bottom: 1px dotted #fff; }
+
+.form-box {
+  margin-top: 35px;
+}
+
+.form-top {
+  overflow: hidden;
+  padding: 0 25px 15px 25px;
+  background: #fff;
+  -moz-border-radius: 4px 4px 0 0; -webkit-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0;
+  text-align: left;
+}
+#form-applicationTop {
+  overflow: hidden;
+  padding: 0 25px 15px 10px;
+  background: #fff;
+  -moz-border-radius: 4px 4px 0 0; -webkit-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0;
+  text-align: left;
+}
+.form-top-left {
+  float: left;
+  width: 100%;
+  padding-top: 25px;
+}
+
+.form-top-left h3 { margin-top: 0; }
+
+.form-top-right {
+  float: left;
+  width: 25%;
+  padding-top: 5px;
+  font-size: 66px;
+  color: #ddd;
+  line-height: 100px;
+  text-align: right;
+}
+
+.form-bottom {
+  padding: 25px 25px 30px 25px;
+  background: #ecf0f1;
+  -moz-border-radius: 0 0 4px 4px;
+  -webkit-border-radius: 0 0 4px 4px;
+  border-radius: 0 0 4px 4px;
+  text-align: left;
+}
+
+.form-bottom a {
+  color:#1f6b7a;
+}
+
+.form-bottom form textarea {
+  height: 100px;
+}
+
+.form-bottom form button.btn {
+  width: 100%;
+}
+
+.form-bottom form .input-error {
+  border-color: #4aaf51;
+}
+
+.social-login {
+  margin-top: 35px;
+}
+
+.social-login h3 {
+  color: #fff;
+}
+
+.social-login-buttons {
+  margin-top: 25px;
+}
+
+footer p {
+  color: #ecf0f1;
+}
+
+.nav {
+  position: relative;
+  /*   font-size: 12px; */
+  float: right;
+  margin: 12px 18px 0 0;
+  min-width: 120px;
+  color: #9faaad;
+}
+.nav a{
+  color: #9faaad;
+}
+
+.dropdown-trigger {
+  cursor: pointer;
+  padding: 4px 24px 4px 8px;
+  position: relative;
+}
+
+.dropdown-trigger>a{
+  color:inherit;
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 110%;
+  list-style: none outside none;
+  min-width: 120px;
+  padding: 0;
+  display: none;
+}
+.dropdown-content a {
+  color: #7f7f7f;
+  display: block;
+  min-width: 120px;
+  min-height: 18px;
+  padding: 4px 8px; }
+
+.dropdown-trigger.open, .dropdown-content.open {
+  background-color: white;
+  display: block;
+  color: #7f7f7f; }
+
+.dropdown-trigger:hover, .dropdown-content a:hover {
+  background-color: #e0e4e5;
+  color: #43575c; }
+
+.nav {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none; }
+.nav:before, .nav:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+.nav:after {
+  clear: both; }
+.nav > li {
+  position: relative;
+  display: block; }
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 5px 10px; }
+.nav > li > a:hover, .nav > li > a:focus {
+  text-decoration: none;
+  background-color: #eeeeee; }
+.nav > li.disabled > a {
+  color: #999999; }
+.nav > li.disabled > a:hover, .nav > li.disabled > a:focus {
+  color: #999999;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: not-allowed; }
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+  background-color: #eeeeee;
+  border-color: #49a8d5; }
+.nav .open > a .caret, .nav .open > a:hover .caret, .nav .open > a:focus .caret {
+  border-top-color: #2780aa;
+  border-bottom-color: #2780aa; }
+.nav .nav-divider {
+  height: 1px;
+  margin: 10px 0;
+  overflow: hidden;
+  background-color: #e5e5e5; }
+.nav > li > a > img {
+  max-width: none; }
+
+.nav-tabs {
+  border-bottom: 1px solid #dddddd; }
+.nav-tabs > li {
+  float: left;
+  margin-bottom: -1px; }
+.nav-tabs > li > a {
+  margin-right: 2px;
+  line-height: 1.5;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0; }
+.nav-tabs > li > a:hover {
+  border-color: #eeeeee #eeeeee #dddddd; }
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  color: #34928a;
+  background-color: #d4d9da;
+  border: 1px solid #34928a;
+  border-bottom-color: transparent;
+  cursor: default; }
+
+.nav-pills > li {
+  float: left; }
+.nav-pills > li > a {
+  border-radius: 4px; }
+.nav-pills > li + li {
+  margin-left: 2px; }
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  color: #f8f8f8;
+  background-color: #02786e; }
+.nav-pills > li.active > a .caret, .nav-pills > li.active > a:hover .caret, .nav-pills > li.active > a:focus .caret {
+  border-top-color: #f8f8f8;
+  border-bottom-color: #f8f8f8; }
+
+.nav-stacked > li {
+  float: none; }
+.nav-stacked > li + li {
+  margin-top: 2px;
+  margin-left: 0; }
+
+.nav-justified, .nav-tabs.nav-justified {
+  width: 100%; }
+.nav-justified > li, .nav-tabs.nav-justified > li {
+  float: none; }
+.nav-justified > li > a, .nav-tabs.nav-justified > li > a {
+  text-align: center;
+  margin-bottom: 5px; }
+.nav-justified > .dropdown .dropdown-menu {
+  top: auto;
+  left: auto; }
+@media (min-width: 768px) {
+  .nav-justified > li, .nav-tabs.nav-justified > li {
+    display: table-cell;
+    width: 1%; }
+  .nav-justified > li > a, .nav-tabs.nav-justified > li > a {
+    margin-bottom: 0; } }
+
+.nav-tabs-justified, .nav-tabs.nav-justified {
+  border-bottom: 0; }
+.nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
+  margin-right: 0;
+  border-radius: 4px; }
+.nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
+.nav-tabs-justified > .active > a:hover,
+.nav-tabs.nav-justified > .active > a:hover,
+.nav-tabs-justified > .active > a:focus,
+.nav-tabs.nav-justified > .active > a:focus {
+  border: 1px solid #dddddd; }
+@media (min-width: 768px) {
+  .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
+    border-bottom: 1px solid #dddddd;
+    border-radius: 4px 4px 0 0; }
+  .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
+  .nav-tabs-justified > .active > a:hover,
+  .nav-tabs.nav-justified > .active > a:hover,
+  .nav-tabs-justified > .active > a:focus,
+  .nav-tabs.nav-justified > .active > a:focus {
+    border-bottom-color: transparent; } }
+
+.backstretch img {
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -ms-filter: blur(3px);
+  -o-filter: blur(3px);
+  filter: blur(3px);
+}
+
+/***** Media queries *****/
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+@media (max-width: 767px) {
+
+  .inner-bg { padding: 60px 0 110px 0; }
+
+}
+
+@media (max-width: 415px) {
+
+  h1, h2 { font-size: 32px; }
+
+}
